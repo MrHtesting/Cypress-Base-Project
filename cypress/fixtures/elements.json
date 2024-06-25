@@ -1,0 +1,6 @@
+{
+
+  "SearchButton": "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[1]",
+  "SearchBar":"/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input",
+  "Title": "//*[@id=\"rso\"]/div[1]/div/div[1]/div[1]/title-with-lhs-icon/div[2]/h3"
+}

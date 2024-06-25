@@ -1,0 +1,31 @@
+{
+  "name": "cypress-bdd-base-project",
+  "version": "1.0.0",
+  "description": "Cypress BDD Base Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Faiz Ahmed",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.7",
+    "child_process": "^1.0.2",
+    "cypress": "^9.5.4",
+    "cypress-cucumber-attach-screenshots-to-failed-steps": "^1.0.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^1.6.2",
+    "fs": "0.0.1-security",
+    "multiple-cucumber-html-reporter": "^1.20.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
