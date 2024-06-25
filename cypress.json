@@ -1,8 +1,0 @@
- {
-  "testFiles": "**/*.feature",
-  "projectId": "9nvbko",
-   "viewportWidth": 1600,
-   "viewportHeight": 900,
-   "experimentalInteractiveRunEvents": true,
-   "waitForAnimations": true
-}
